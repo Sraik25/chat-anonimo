@@ -1,7 +1,13 @@
 import React from 'react';
+import Aside from '../../components/Aside';
 
 const ChatRoom = () => {
-  return <div>ChatRoom</div>;
+  return (
+    <div>
+      ChatRoom
+      <Aside />
+    </div>
+  );
 };
 
 export default ChatRoom;
