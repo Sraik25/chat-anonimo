@@ -3,6 +3,7 @@ import React from 'react';
 const Aside = () => {
   return (
     <div>
+      <h2>Categorias</h2>
       <ul>
         <li>
           <button>Redux</button>
